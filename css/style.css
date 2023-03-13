@@ -52,11 +52,12 @@
 .logo {
     color: var(--logo-up-color);
     font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
     width: 145px;
     height: 31px;
+    letter-spacing: 0.03em text-transform: uppercase
     /* margin-left: 215px;
     margin-top: 24px; */
 }
