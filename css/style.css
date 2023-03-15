@@ -2,7 +2,7 @@
     --primary-text-color: #757575;
     --primary-bg-color: #ffffff;
     --secondary-bg-color: #f5f4fa;
-    --footer-hero-bg-color: #2f303a;
+    --footer-hero-bg-color: #2e2f42;
     --titel-link-color: #2e2f42;
     --secondary-link-color: #434455;
     --accent-color: #2e2f42;
@@ -125,27 +125,33 @@
 
 .hero {
     background-color: var(--footer-hero-bg-color);
-    /* width: 1600px;
-    height: 600px; */
 }
 
-.hero-titel {
-    color: var(--primary-bg-color);
+.hero-title {
+    color: #ffffff;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 56px;
+    line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 
 .button {
     color: var(--primary-bg-color);
-    background-color: var(--accent-color);
+    background-color: #4D5AE5;
     font-family: inherit;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.88;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.button:hover,
+.button:focus {
+    color: #404BBF;
 }
 
 
