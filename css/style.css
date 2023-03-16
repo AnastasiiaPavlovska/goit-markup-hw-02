@@ -3,7 +3,7 @@
     --primary-bg-color: #ffffff;
     --secondary-bg-color: #f5f4fa;
     --footer-hero-bg-color: #2e2f42;
-    --titel-link-color: #2e2f42;
+    --title-link-color: #2e2f42;
     --secondary-link-color: #434455;
     --accent-color: #2e2f42;
     --logo-up-color: #000000;
@@ -11,7 +11,9 @@
     --address-color: #ffffff;
     --address-secondary-color: rgba(255, 255, 255, 0.6);
     --logo-text-color: #2e2f42;
-    --paragraph-text-color: #434455
+    --paragraph-text-color: #434455;
+    --therd-section-title-color: #2e2f42;
+    --title-team-color: #2e2f42;
 }
 
 body {
@@ -31,24 +33,38 @@ body {
     text-decoration: none;
 }
 
-.titel {
-    color: var(--titel-link-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-
-.title_section {
-    display: none;
+.title {
+    color: var(--title-link-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
+.title_section {
+    list-style: none;
+}
+
+.title_team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-team-color);
+}
+
 .header {
     border: 1px solid #ececec;
+}
+
+.third-section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--therd-section-title-color);
 }
 
 
@@ -84,7 +100,7 @@ body {
 /* Навигация сайта */
 
 .nav>.list .link {
-    color: var(--titel-link-color);
+    color: var(--title-link-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -160,17 +176,6 @@ body {
     background-color: #404BBF;
 }
 
-
-/* Блок Наши приимущества */
-
-.advantages .titel {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    text-align: start;
-}
-
 .paragraph {
     font-size: 16px;
     line-height: 1.5;
@@ -184,7 +189,7 @@ body {
 .team {
     /* width: 1600px;
     height: 648px; */
-    background-color: var(--secondary-bg-color);
+    background-color: #F4F4FD;
 }
 
 .card {
@@ -193,16 +198,18 @@ body {
     background-color: var(--primary-bg-color);
 }
 
-.card>.titel {
+.card>.title {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .card>.text {
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 1.5;
     text-align: center;
+    letter-spacing: 0.02em
 }
 
 
@@ -225,7 +232,7 @@ body {
 /* кнопки галереии */
 
 .galerry-button {
-    color: var(--titel-link-color);
+    color: var(--title-link-color);
     background-color: var(--secondary-bg-color);
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -248,7 +255,7 @@ body {
     line-height: 1.88;
 }
 
-.galerry-card .titel {
+.galerry-card .title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
