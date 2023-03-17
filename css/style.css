@@ -109,9 +109,6 @@ body {
     font-style: normal;
 }
 
-
-/* .contacts>.list {} */
-
 .contacts .list .link {
     color: var(--secondary-link-color);
     font-weight: 500;
@@ -230,14 +227,41 @@ body {
 .address {
     color: var(--address-color);
     font-style: normal;
+    font-style: normal;
+    list-style: none;
 }
 
-.address .link {
+
+/* .address .link {
     color: var(--address-secondary-color);
+} */
+
+
+/* резюме */
+
+
+/* /* /* кнопки галереї  */
+
+.contact {
+    font-style: normal;
+    list-style: none;
 }
 
+.portfolio-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: var(--secondary-link-color);
+}
 
-/* кнопки галереии
+.address>.link {
+    text-decoration: none;
+}
+
+.address>.link:hover,
+.address>.link:focus {
+    color: #404bbf;
+}
 
 .galerry-button {
     color: var(--title-link-color);
@@ -255,10 +279,9 @@ body {
 }
 
 
-/* Карты галереи */
+/* Карти галереї */
 
-
-/* .galerry-card {
+.galerry-card {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
@@ -270,4 +293,4 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     text-align: start;
-} */
+}
