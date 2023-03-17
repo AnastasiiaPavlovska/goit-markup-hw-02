@@ -1,20 +1,24 @@
 :root {
-    --primary-text-color: #757575;
+    /* bg */
     --primary-bg-color: #ffffff;
     --secondary-bg-color: #f5f4fa;
     --footer-hero-bg-color: #2e2f42;
-    --title-link-color: #2e2f42;
-    --secondary-link-color: #434455;
-    --accent-color: #2e2f42;
-    --logo-up-color: #000000;
-    --logo-down-color: #ffffff;
+    /* address */
     --address-color: #ffffff;
     --address-secondary-color: rgba(255, 255, 255, 0.6);
-    --logo-text-color: #2e2f42;
-    --paragraph-text-color: #434455;
+    /* title */
     --therd-section-title-color: #2e2f42;
+    --title-link-color: #2e2f42;
     --title-team-color: #2e2f42;
+    /* logo */
+    --logo-up-color: #000000;
+    --logo-down-color: #ffffff;
+    --logo-text-color: #2e2f42;
     --logo-color: #4d5ae5;
+    /* misc */
+    --secondary-link-color: #434455;
+    --accent-color: #2e2f42;
+    --paragraph-text-color: #434455;
 }
 
 body {
@@ -26,30 +30,8 @@ body {
     letter-spacing: 0.03em;
 }
 
-.list {
-    list-style: none;
-}
 
-.title {
-    color: var(--title-link-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.title_section {
-    list-style: none;
-}
-
-.title_team {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--title-team-color);
-}
+/********************* HEADER **************************/
 
 .header {
     border: 1px solid #ececec;
@@ -65,15 +47,6 @@ body {
     background-color: var(--logo-text-color);
     color: var(--logo-color);
     text-decoration: none;
-}
-
-.third-section-title {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--therd-section-title-color);
 }
 
 .logo.link {
@@ -96,12 +69,6 @@ body {
     color: #404bbf;
 }
 
-.nav>.list.link {
-    color: #404bbf;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
 
 /* контакти */
 
@@ -122,8 +89,45 @@ body {
     color: #404bbf;
 }
 
+.list {
+    list-style: none;
+}
 
-/* Блок герой */
+
+/****************** TITLES ********************/
+
+.title {
+    color: var(--title-link-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.title_section {
+    list-style: none;
+}
+
+.title_team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-team-color);
+}
+
+.third-section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--therd-section-title-color);
+}
+
+
+/********************* SECTION 1 **************************/
 
 .hero {
     background-color: var(--footer-hero-bg-color);
@@ -156,6 +160,9 @@ body {
     color: #404BBF;
     background-color: #404BBF;
 }
+
+
+/********************* SECTION 2 **************************/
 
 .paragraph {
     font-size: 16px;
@@ -194,7 +201,7 @@ body {
 }
 
 
-/* Футер */
+/*********************** FOOTER ***********************/
 
 .footer {
     background-color: var(--footer-hero-bg-color);
@@ -227,20 +234,11 @@ body {
 .address {
     color: var(--address-color);
     font-style: normal;
-    font-style: normal;
     list-style: none;
 }
 
 
-/* .address .link {
-    color: var(--address-secondary-color);
-} */
-
-
 /* резюме */
-
-
-/* /* /* кнопки галереї  */
 
 .contact {
     font-style: normal;
@@ -252,15 +250,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02;
     color: var(--secondary-link-color);
-}
-
-.address>.link {
-    text-decoration: none;
-}
-
-.address>.link:hover,
-.address>.link:focus {
-    color: #404bbf;
 }
 
 .galerry-button {
