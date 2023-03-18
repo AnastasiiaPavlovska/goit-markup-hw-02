@@ -137,12 +137,11 @@ body {
 
 .hero-title {
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
 }
 
 .button {
@@ -183,8 +182,6 @@ body {
 }
 
 .card {
-    width: 270px;
-    height: 368px;
     background-color: var(--primary-bg-color);
 }
 
