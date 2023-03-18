@@ -1,7 +1,6 @@
 :root {
     /* bg */
     --primary-bg-color: #ffffff;
-    --secondary-bg-color: #f5f4fa;
     --footer-hero-bg-color: #2e2f42;
     /* address */
     --address-color: #ffffff;
@@ -15,6 +14,9 @@
     --logo-down-color: #ffffff;
     --logo-text-color: #2e2f42;
     --logo-color: #4d5ae5;
+    /* buttons */
+    --gallery-button-bg-color: #F4F4FD;
+    --gallery-button-color: #4d5ae5;
     /* misc */
     --secondary-link-color: #434455;
     --accent-color: #2e2f42;
@@ -252,19 +254,24 @@ body {
     color: var(--secondary-link-color);
 }
 
+
+/************ GALERY BUTTON ****************/
+
 .galerry-button {
-    color: var(--title-link-color);
-    background-color: var(--secondary-bg-color);
-    font-family: Roboto, sans-serif;
+    color: var(--gallery-button-color);
+    background-color: var(--gallery-button-bg-color);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .galerry-button:hover,
 .galerry-button:focus {
-    color: var(--primary-bg-color);
-    background-color: var(--accent-color);
+    color: #ffffff;
+    background-color: #404BBF;
 }
 
 
